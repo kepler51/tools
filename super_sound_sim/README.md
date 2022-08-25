@@ -16,6 +16,7 @@ Deb example: apt install ffmpeg
 
 sss.py [-h] [-u {m,f}] -i INPUT [-o OUTPUT] -d DISTANCES [-U]
 
+```
 optional arguments:
   -h, --help            show this help message and exit
   -u {m,f}, --units {m,f}
@@ -27,3 +28,4 @@ optional arguments:
   -d DISTANCES, --distances DISTANCES
                         any number of distances like: 10,100,2000
   -U, --unsynched       Default assumes sync and applies speed of sound to distance from observer
+```
