@@ -8,7 +8,7 @@
     ../sss.py -i firetruck.mp3 -d 40,40,40 -o synched-40-40-40-firetruck.mp3
     
     # at unequal distances
-    ../sss.py -i sweep.mp3 -d 40,200,500 -o synched-40-200-40-sweep.mp3
+    ../sss.py -i sweep.mp3 -d 40,200,500 -o synched-40-200-500-sweep.mp3
     ../sss.py -i firetruck.mp3 -d 40,200,500 -o synched-40-200-500-firetruck.mp3
 
 
