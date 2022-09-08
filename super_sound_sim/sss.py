@@ -34,6 +34,7 @@ source_distances.sort()
 c = 0
 d1 = 0
 mastersound = AudioSegment.silent(duration=6000)
+unsync_delay=0
 for d in source_distances:
     #debug
     #mastersound.export("mixed_sounds_" + str(c)+".mp3", format="mp3")
@@ -43,9 +44,10 @@ for d in source_distances:
     delay = d/C
 
     if args.unsynched: 
-        #introduce some random delay 
-        delay=delay+random.uniform(0,2)
-        print("delay: "+str(delay))
+        #introduce unsync delay and increment .5 seconds 
+        delay = delay + unsync_delay
+        unsync_delay = unsync_delay+.5
+    print("delay: "+str(delay))
 
     #intensity relative to first distance (which is always 100)
     if c == 1:
