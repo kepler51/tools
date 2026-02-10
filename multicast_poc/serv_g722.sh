@@ -4,6 +4,8 @@ ADDR=224.0.0.1:4567
 SOUNDFILE=test.mp3
 SOUNDFILE=bb_03.mp3
 SOUNDFILE=440Hz_44100Hz_16bit_30sec.mp3
+SOUNDFILE=sweep_100Hz_4000Hz_0dBFS_7s.mp3
+SOUNDFILE=bb_03.mp3
 
 
 #examples that work
